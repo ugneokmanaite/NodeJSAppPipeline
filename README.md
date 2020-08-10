@@ -45,17 +45,17 @@ choose freestyle project
 We are not testing at this stage so it is no longer required
 
 ## 4. Source Code Management
-![image](source_code_management.JPG)
+![image](https://github.com/ugneokmanaite/NodeJSAppPipeline/blob/master/images/source_code_management.JPG)
 
  '*/master' branch is being used to build
 
 ## 5. Build Triggers
-![image](build_triggers.JPG)
+![image](https://github.com/ugneokmanaite/NodeJSAppPipeline/blob/master/images/build_triggers.JPG)
 
 ensure that ` Build after other projects are build` is selected
 
 ## 6. Build Environment
-![image](build_environment.JPG)
+![image](https://github.com/ugneokmanaite/NodeJSAppPipeline/blob/master/images/build_environment.JPG)
  
  We need the key of the machine- in this instance its `DevOpsStudents.pem`
 
@@ -69,20 +69,20 @@ ensure that ` Build after other projects are build` is selected
 `then we need to run these!!!`
 
 We need to select execute shell and enter the following
-![image](execute_shell.JPG)
+![image](https://github.com/ugneokmanaite/NodeJSAppPipeline/blob/master/images/execute_shell.jpg)
 
 ## 8.  Go into the app & make some changes to the homepage via index.ejs
-![image](homepage_changes.JPG)
+![image](https://github.com/ugneokmanaite/NodeJSAppPipeline/blob/master/images/homepage_changes.png)
 
 ## 9. Opening port 22 for Jenkins
 - Go on AWS E2 Dashboard 
 - In the instance, under security group select inbound rules
 - add rule
-![image](inbound_rule.JPG)
+![image](https://github.com/ugneokmanaite/NodeJSAppPipeline/blob/master/images/inbound_rule.jpg)
 - Save
 
 Now this should appear 
-![image](ports.JPG)
+![image](https://github.com/ugneokmanaite/NodeJSAppPipeline/blob/master/images/ports.jpg)
 
 - port 22 is now open via personal IP & Jenkins IP
 
@@ -92,7 +92,7 @@ Now this should appear
 - this will commit new changes to the branch 
 - changes will not be pushed to master
 
-![image](ugne_was_here.JPG)
+![image](https://github.com/ugneokmanaite/NodeJSAppPipeline/blob/master/images/ugne_was_here.jpg)
 
 
 
